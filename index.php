@@ -24,7 +24,7 @@ get_header();
 				var_dump(is_front_page() );
 				?>
 				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?>index.php file</h1>
 				</header>
 				<?php
 			endif;

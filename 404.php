@@ -15,6 +15,8 @@ get_header();
 		<section class="error-404 not-found">
 			<header class="page-header">
 				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'new-theme-for-test' ); ?></h1>
+				<div class="bg-red-500 py-3 text-2xl">404 file</div>
+
 			</header><!-- .page-header -->
 
 			<div class="page-content">

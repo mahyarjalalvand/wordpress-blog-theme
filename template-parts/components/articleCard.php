@@ -1,4 +1,4 @@
-<a href="<?php the_permalink(); ?>" class="bg-black/50 w-[calc(25%-0.75rem)]">
+<a href="<?php echo esc_url(the_permalink()) ?>" class="bg-black/50 w-[calc(25%-0.75rem)]">
     <div class="">
         <?php if(has_post_thumbnail()): ?>
         <?php the_post_thumbnail('false' , ['class' => 'object-cover size-full aspect-video']) ?>

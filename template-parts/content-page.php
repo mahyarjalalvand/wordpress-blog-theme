@@ -28,6 +28,7 @@
 		);
 		?>
 	</div><!-- .entry-content -->
+	<div class="bg-red-500 py-3 text-2xl">content-page file</div>
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">

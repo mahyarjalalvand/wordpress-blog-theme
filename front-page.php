@@ -18,14 +18,12 @@ $all_posts = get_all_post();
     <?php if($all_posts->have_posts()): ?>
         <?php while($all_posts->have_posts()) : $all_posts->the_post(); ?>
        <!-- <p class="p-4 bg-indigo-600"> <?php echo the_title() ;  ?></p> -->
-            <?php get_template_part("template-parts/components/articleCard"); ?>
-        <?php endwhile; else : ?>
+            <?php //get_template_part("template-parts/components/articleCard"); ?>
+            <a href="<?php echo the_permalink() ?>"><?php echo the_title() ;  ?></a>
+        <?php endwhile;  wp_reset_postdata(); else : ?>
         <p> پستی برای نمایش یافت نشد</p>
         <?php endif; ?>
    </div>
-
-
-
 </section>
 
 

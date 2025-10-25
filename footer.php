@@ -20,7 +20,7 @@
 
 <?php wp_footer(); ?>
   <!-- <script type="module" crossorigin
-        src="<?php echo esc_url( get_template_directory_uri() ) . '/src/ts/main.ts'; ?>"></script> -->
+        src="<?php //echo esc_url( get_template_directory_uri() ) . '/src/ts/main.ts'; ?>"></script> -->
 
     </body>
 

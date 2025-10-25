@@ -6,9 +6,14 @@ function get_all_post(){
         'orderby' => 'date',
         'order' => 'DESC'
     ];
-
    return new WP_Query($arg);
 };
+
+function custom_var_dump($item){
+    echo "<div class='fixed bg-white z-50 inset-0 dir-ltr overflow-auto'><pre>";
+    var_dump($item);
+    echo "</div></pre>";
+}
 // new post type
 $args=[
     'labels' =>[
